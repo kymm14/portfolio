@@ -83,10 +83,13 @@ img.icono-intro {
     flex-direction: row;
     padding: 2rem 5rem;
     background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .texto-sobre-mi {
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     font-weight: 300;
     font-size: 25px;
@@ -97,11 +100,11 @@ img.icono-intro {
     padding-bottom: 2rem;
 }
 
-.iconos-peq img {
-    width: 5%;
+.iconos-peq {
+    width: 30%;
+    justify-content: center;
     text-align: center;
-    padding-top: 1rem;
-    margin: 10px;
+    align-items: center;
 }
 
 .box-contacto {
