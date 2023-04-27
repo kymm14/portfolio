@@ -11,9 +11,9 @@ nav.menu {
 ul.informacion {
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Lobster', cursive;
-    font-weight: 300;
-    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 a {
@@ -36,25 +36,26 @@ a:hover {
 
 .nombre {
     justify-content: left;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Alegreya', serif;
     margin-top: 1rem;
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 90px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 8rem;
 }
 
 p.intro {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 600;
     margin: 0 4rem;
 }
 
 img.icono-intro {
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 30%;
 }
 
 .linea {
@@ -63,6 +64,52 @@ img.icono-intro {
     padding: 3rem;
     background-color: antiquewhite;
 }
+
+.sobre-mi {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 4rem;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-sobre-mi {
+    display: grid;
+    text-align: justify;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+
+.sobre-mi img {
+    width: 35%;
+    padding: 2rem 2rem;
+}
+
+.frase {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    justify-content: right;
+    padding-top: 3rem;
+}
+
+/* .iconos-peq img {
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+} */
 
 .portafolio {
     display: grid;
@@ -75,36 +122,20 @@ img.icono-intro {
 }
 
 .box-portafolio img {
-    width: 40%;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 30px;
+    transition: transform .3s;
 }
 
-.sobre-mi {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem 5rem;
-    background-color: antiquewhite;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.box-portafolio img:hover {
+    transform: scale(1.2); 
 }
 
-.texto-sobre-mi {
-    text-align: justify;
-    justify-content: center;
-    font-weight: 300;
+h4 {
     font-size: 25px;
-}
-
-.sobre-mi img {
-    width: 30%;
-    padding-bottom: 2rem;
-}
-
-.iconos-peq {
-    width: 30%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    font-family: 'Lato', serif;
+    font-weight: 700;
 }
 
 .box-contacto {
@@ -112,7 +143,8 @@ img.icono-intro {
     flex-direction: row;
     align-items: center;
     vertical-align: middle;
-    margin: 0 9rem;
+    margin: 0 8rem;
+    padding: 2rem 0;
     justify-content: space-evenly;
     background-color: black;
     border-radius: 15px;
@@ -124,19 +156,27 @@ img.icono-intro {
 .item {
     align-items: center;
     text-align: center;
-    padding: 2rem;
     color: white;
+    font-family: 'Alegreya', sans-serif;
 }
 
 button {
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 2.5rem;
     justify-content: center;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
     font-size: 1.5rem;
     background-color: antiquewhite;
-    border-radius: 20px;
+    border-radius: 30px;
+}
+
+.boton {
+    transition: transform .3s;
+}
+
+.boton:hover {
+    transform: scale(1.2);
 }
 
 .iconos-sociales {
@@ -149,21 +189,11 @@ button {
 }
 
 .icon-social img {
-    width: 30px;
-    margin: 1rem;
+    width: 35px;
+    margin: 2rem;
 }
 
 .contacto-footer {
     position: relative;
     background-color: antiquewhite;
 }
-
-
-
-
-
-
-
-
-
-
