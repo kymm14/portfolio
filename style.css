@@ -13,7 +13,7 @@ ul.informacion {
     justify-content: space-evenly;
     font-family: 'Alegreya', serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 a {
@@ -30,7 +30,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 6rem 5rem;
+    padding: 7rem 5rem;
     background-color: antiquewhite;
 }
 
@@ -43,13 +43,13 @@ a:hover {
 h1 {
     font-weight: 700;
     font-style: bold;
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 p.intro {
     font-size: 25px;
     font-weight: 600;
-    margin: 0 4rem;
+    margin: 0 5rem;
 }
 
 img.icono-intro {
@@ -144,7 +144,7 @@ h4 {
     align-items: center;
     vertical-align: middle;
     margin: 0 8rem;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     justify-content: space-evenly;
     background-color: black;
     border-radius: 15px;
@@ -158,6 +158,16 @@ h4 {
     text-align: center;
     color: white;
     font-family: 'Alegreya', sans-serif;
+    font-size: 20px;
+}
+
+.item-texto {
+    align-items: center;
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', serif;
 }
 
 button {
@@ -169,6 +179,9 @@ button {
     font-size: 1.5rem;
     background-color: antiquewhite;
     border-radius: 30px;
+    font-family: 'Lato', serif;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .boton {
