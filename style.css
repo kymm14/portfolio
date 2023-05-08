@@ -103,14 +103,6 @@ h2 {
     padding-top: 3rem;
 }
 
-/* .iconos-peq img {
-    width: 5%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 1rem;
-} */
-
 .portafolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
